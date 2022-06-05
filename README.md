@@ -82,3 +82,8 @@ alert(message);
 ## Inline code
 
 This web site is using `markedjs/marked`.
+
+1.重要經歷
+  打工
+    系辦
+    補習班
