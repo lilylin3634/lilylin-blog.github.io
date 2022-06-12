@@ -1,60 +1,122 @@
-#莉莉的德文天地
-## 🤔為什ㄇㄛ學德文?
-大三下決定去德國交換
+<html>
+	<head>
+		<title>This is liylin's cv</title>
+		<link rel="stylesheet" href="mystyle.css">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<style>
+			body {background-color: #AE57A4;}
+		</style>
+		<script>
+			console.log('[Information] cv data');
+		</script>
+	</head>
+	<body>
+		<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQevF8ewS0wcgPXKDIFCYaL632z1HzcCwZoiw&usqp=CAU" alt="This is the logo" width="15%" >
+		<div>
+			<h1>Please kick the button to start</h1>
+			<button onclick="question()">start</button>
+			<p id="result"></p>
+			<hr color="AE57A4" size="10" />
+		</div>
+		<!--
+		img 設置左邊
+		-->
+		<script>
+			function question() {
+				var mag; //store massage
+				var user_name = prompt("Please enter your name:", "Lin lily");
+				
+				if (user_name == null || user_name == "") {
+					mag = "Invaild input";
+				} else {
+					mag = "Hi " + user_name + ", welcome lily's blog!";
+				}
+			document.getElementById("result").innerHTML = mag
+			
+			}
+		</script>
+		
+		<div>
+			<h1 class='line1'><img src="/icon.jpg" width="20%"><b>目錄</b></h1>
+			<ol>
+				<li> <i class="material-icons" style="font-size:48px;color:red">filter_1</i>簡介</li>
+				<br> 
+				<li> <i class="material-icons" style="font-size:48px;color:red">filter_2</i>專長</li>
+				<br>
+				<li> <i class="material-icons" style="font-size:48px;color:red">filter_3</i>夢想</li>
+				<br>
+				<hr color="AE57A4" size="5" />
+			</ol>
+		</div>
+		<!--
+		不顯示123
+		字中
+		
+		-->
+		<div>
+		<h1 class='line1'>簡介</h1>
+		<table border="1" align="center">
+			
+		
+			<colorgroup>
+				<col style="background-color:#AEE1CD">
+				<col style="background-color:#FFE681">
+				<col style="background-color:#FF8F59">
+			</colorgroup>
+		
+			<tr>
+				<th>綽號</th>
+				<th>興趣</th>
+				<th>說明</th>
+				
+			</tr>
+			<tr>
+				<td>睡豬</td>
+				<td>睡覺</td>
+				<td>每天平均睡10小時</td>
+			</tr>
+			<tr>
+				<td>吃貨</td>
+				<td>吃東西</td>
+				<td>一天吃5餐</td>
+			</tr>
+			<tr>
+				<td>過動</td>
+				<td>運動</td>
+				<td>羽球熱愛者</td>
+			</tr>
+			
+		</table>
+		<hr color="AE57A4" size="5" />
+		</div>
 
-## 🤔學德文的優勢
-- 😄 德國國立大學學費免費
-- 😄 德國是先進國值得學習
-- 😄 目前學習德文的人不多，增加職場競爭力
-
-
-
-## 🤔如何學好德文!!
-**堅持**  
-__將德文加入你的生活__
-
-
-## 目錄
-
-* 閱讀
-* 聽力
-* 寫作
-* 口說
-
-### 閱讀
-
-1. 單字詞性
-1. 文法句型
-1. 動詞時態
-  - 現在式
-  - 過去式
-
-## Images
-
-狐狸愛好者
-![This is a alt text.](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhjOXPFTRUmDKjxXdOoX8VAObIZXdg2lmhPw&usqp=CAU)
-
-## Links
-
-想更了解我 --> [Markdown Live Preview][(我的生活紀錄)](https://www.instagram.com/bemyself_liiiiily/)).
-
-希望未來能開成的餐廳 --> [Markdown Live Preview]([lilyfox's restaurant](https://lilyfox.000webhostapp.com/Delicious/)).
-
-## Blockquotes
-
-> 現在式動詞變化
->
->> 第一類動詞
-
-## 主詞變化
-
-| 主格  | 所有格 |
-| ------------- |:-------------:|
-| left foo      | right foo     |
-| left bar      | right bar     |
-| left baz      | right baz     |
-
-
-let message = '歡迎參觀lily's blog';
-alert(message);
-
+		<div>
+			<h1 class='line1'>專長</h1>
+			<ul>
+				<li>*-*行銷經營</li>
+				<li>*-*投資分析</li>
+				<li>*-*英文精通</li>
+				<li>*-*審計記帳</li>
+			</ul>
+		</div>
+		<!--
+		<table>中間 100%全視窗
+		< H1標題字改變[class='line1']
+		字shadow
+		
+		-->
+		<div>
+			<h1 class='line1'>dream of my own resturant</h1>
+			<a href="#"
+				onclick="open('https://lilyfox.000webhostapp.com/Delicious/','lilyfox resturant', config='height=300,width=200');">See more</a>
+		</div>
+		<!--
+		超鏈結未點選/點選過時會有不同顏色 
+		
+		-->
+		<!--
+		  
+		背景顏色不同顏色當游標觸動時
+		-->
+	</body>
+</html>
